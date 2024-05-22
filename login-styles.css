@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-pranjalsrivastava9-2403251.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: firebrick;
+    border-radius: 5%;
+    margin: auto;
+    box-shadow: 15px 15px 20px black;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    background-color: firebrick;
+}
+.form h2{
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.form a:hover{
+    color: aqua;
+}
